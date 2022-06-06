@@ -36,7 +36,7 @@ const init = () => {
             type: 'input',
             name: 'id',
             message: "Please enter the employee's numerical ID:",
-            validate: function validateName(name){
+            validate: function validateId(name){
                 return name !== '';
             }
         },
@@ -166,9 +166,3 @@ const writeFile = () => {
 
 //run the application
 init();
-    // .then(employeeArr => {
-    //     return createHTML(employeeArr);
-    // })
-    // .then(newHTML => {
-    //     return writeFile(newHTML);
-    // })
