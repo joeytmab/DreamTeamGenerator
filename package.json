@@ -1,5 +1,5 @@
 {
-  "name": "teamprofilegenerator",
+  "name": "dreamteamgenerator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeytmab/TeamProfileGenerator.git"
+    "url": "git+https://github.com/joeytmab/DreamTeamGenerator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joeytmab/TeamProfileGenerator/issues"
+    "url": "https://github.com/joeytmab/DreamTeamGenerator/issues"
   },
-  "homepage": "https://github.com/joeytmab/TeamProfileGenerator#readme",
+  "homepage": "https://github.com/joeytmab/DreamTeamGenerator#readme",
   "dependencies": {
     "email-validator": "^2.0.4",
     "inquirer": "^8.2.4"
