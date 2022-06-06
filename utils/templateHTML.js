@@ -1,4 +1,4 @@
-let cards = [];
+let staffcards = [];
 
 //makes HTML; bootstrap and fontawesome are only add-ons
 function createHTML(employeeArr) {
@@ -6,11 +6,11 @@ function createHTML(employeeArr) {
     employeeArr.forEach((worker) => {
     
     if(worker.getRole() === "Manager") {
-        cards += managerCard(worker)
+        staffcards += managerCard(worker)
     } else if (worker.getRole() === "Engineer") {
-        cards += engineerCard(worker)
+        staffcards += engineerCard(worker)
     } else if (worker.getRole() === "Intern") {
-        cards += internCard(worker)
+        staffcards += internCard(worker)
     }
     });
 
@@ -50,6 +50,7 @@ function createHTML(employeeArr) {
 
 // Generates cards for each employee class based on user input in Inquirer
 
+//manager
 function managerCard(manager) {
     return `
     <div class="col-md-4 col-sm-6 col-12 col-lg-3">    
@@ -70,6 +71,7 @@ function managerCard(manager) {
 </div>`
 };
 
+//engineer
 function engineerCard(engineer) {
     return `
     <div class="col-md-4 col-sm-6 col-12 col-lg-3">    
@@ -90,6 +92,7 @@ function engineerCard(engineer) {
 </div>`
 };
 
+//intern
 function internCard(intern) {
     return `
     <div class="col-md-4 col-sm-6 col-12 col-lg-3">    
