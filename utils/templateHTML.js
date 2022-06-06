@@ -33,12 +33,12 @@ function createHTML(employeeArr) {
 
 <div class="header">
 <div class="jumbotron bg-primary">
-   <h1 class="display-4 text-white text-center">My Team</h1>
+   <h1 class="display-4 text-white text-center">My Dream Team <i class="fa-solid fa-people-group"></i></h1>
 </div>
 </div>
 <div class="container-body container-fluid">
    <div class="row">
-        ${cards} 
+        ${staffcards} 
     </div>
 </div>
 
