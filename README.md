@@ -8,6 +8,12 @@ Initializing the application will allow the user to be prompted with building th
 
 Finally, test parameters (via the Jest Javascript Testing Framework) are included in the application to ensure correctness of the codebase.
 
+Below is a gif file showing functionality of the app and its aesthetics on the repository.
+
+![Dream Team Generator](./assets/teamgen.gif.gif)
+
+Full movie for functionality can be found ---> [here](https://www.youtube.com/watch?v=pFIvupCPZBI)
+
 ## Installation Parameters
 
 `npm i` allows for necessary installation of miscellaneous packages. `npm i inquirer` and `npm i jest` are necessary for proper function of the app, both for creating fluidity and for allowing test functionality. Finally, `npm i email-validator` is used to install the Email Validator package. This ensures that the email input for team members must have proper syntax, in order to minimize error.

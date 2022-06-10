@@ -105,7 +105,7 @@ function internCard(intern) {
             <ul class="list-unstyled">
                 <li><strong>Employee ID: ${intern.id}</strong></li>
                 <li><strong>Email: <a href="mailto:${intern.email}">${intern.email}</a></strong></li>
-                <li><strong>Office Number: ${intern.school}</strong></li>
+                <li><strong>School: ${intern.school}</strong></li>
                 
             </ul>
         </div>
